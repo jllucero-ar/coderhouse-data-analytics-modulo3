@@ -1,4 +1,6 @@
-CREATE DATABASE Ventas_Tech_DB;
+-- CREAR LA BASE DE DATOS SOLO SI NO EXISTE (permite re-ejecutar el script)
+IF DB_ID('Ventas_Tech_DB') IS NULL
+    CREATE DATABASE Ventas_Tech_DB;
 GO
 
 USE Ventas_Tech_DB;
